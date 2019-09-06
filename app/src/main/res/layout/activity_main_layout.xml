@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.MainActivity">
+
+    <ImageButton
+            android:id="@+id/btnOnOff"
+            android:layout_width="@dimen/toggle_button_size"
+            android:layout_height="@dimen/toggle_button_size"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/toggle_button_description"
+            android:scaleType="fitCenter"
+            android:src="@drawable/button_light_switch"
+            android:tint="@color/colorAccent" />
+</FrameLayout>

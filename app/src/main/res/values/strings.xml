@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Torch</string>
+    <string name="toggle_button_description">Toggle the torch</string>
+    <string name="camera_permissions_rationale">Please grant the camera permission to use the camera\'s flash as the torch</string>
+    <string name="error_not_supported">Flashlight is not supported by your hardware</string>
+    <string name="error_no_permissions">Can\'t start without camera permission</string>
+    <string name="error_generic">Generic error</string>
+</resources>
